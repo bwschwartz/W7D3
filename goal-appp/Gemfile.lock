@@ -269,7 +269,7 @@ GEM
     zeitwerk (2.6.0)
 
 PLATFORMS
-  x86_64-darwin-21
+  x86_64-darwin-20
 
 DEPENDENCIES
   annotate
@@ -299,4 +299,4 @@ RUBY VERSION
    ruby 3.1.1p18
 
 BUNDLED WITH
-   2.3.20
+   2.3.19
