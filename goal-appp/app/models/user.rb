@@ -21,12 +21,12 @@ class User < ApplicationRecord
         user = User.find_by(username: username)
         if user && user.is_password?(password)
             user
-        else  
-            nil 
+        else
+            nil
         end
     end
 
-    attr_reader :password 
+    attr_reader :password
 
     def password=(password)
         @password = password
